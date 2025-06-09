@@ -1,0 +1,20 @@
+
+.prod {
+    margin-top: 1rem;
+}
+.prod hr{
+    width: 82%;
+    border: 1px solid #aeaeae;
+}
+
+.prod h2{
+    margin: 1rem 12rem 1rem 21rem;
+}
+
+.product{
+    margin-top: 3rem;
+   display: flex;
+   flex-wrap: wrap;
+   gap: 1rem;
+}
+

@@ -1,0 +1,36 @@
+.box4{
+    display: flex;
+    /* align-items: center; */
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.emailbox{
+    width: 20rems;
+    border: 1px solid rgb(196, 190, 190);
+}
+
+input{
+    border: none;
+    padding: 1rem 1.4rem;
+    outline: none;
+    font-size: 1rem;
+}
+
+button{
+    padding: 1rem 2rem;
+    border: none;
+    background: #7fad39;
+    font-size: 1rem;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.links{
+    margin: 2rem 0;
+}
+
+.links img{
+    width: 2rem;
+}

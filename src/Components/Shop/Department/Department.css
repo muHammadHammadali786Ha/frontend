@@ -1,0 +1,37 @@
+.department{
+    border: 0.1rem solid #a9a9a969;
+    /* position: absolute; Position the left component absolutely */
+    /* left: 0; */
+    /* top: 0; */
+    /* width: 200px; Adjust width as needed */
+    /* height: 100%; Ensure full height */
+    /* background-color: rgba(0, 0, 0, 0.5); Example background color */
+    z-index: 0; /* Ensure the left component is behind the slider */
+    
+}
+.depart{
+    width: 15rem;
+    background: #7fad39;
+    text-align: center;
+    padding: 0.9rem;
+    color: #fff;
+}
+
+.depart h3{
+    font-size: 1.3rem;
+}
+
+.dropDown{
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem 1rem;
+    gap: 1rem;
+}
+
+.dropDown p{
+    color: #a9a9a9;
+    font-size: 1.2rem;
+}
+
+
+

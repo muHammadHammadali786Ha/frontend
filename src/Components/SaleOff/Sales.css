@@ -1,0 +1,62 @@
+.sales{
+    width: 80vw;
+    z-index: 1;
+}
+.sales h2{
+    font-size: 2.5rem;
+    /* display: flex; */
+}
+
+.saleData {
+    /* width: 5;0vw */
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 2rem;
+   
+}
+
+
+/* Add this CSS to your Sales.css file */
+.saleData {
+    display: flex;
+    gap: 2.5rem;
+    /* animation: slide 10s linear infinite; Adjust duration as needed */
+}
+
+
+ .slider::after
+{
+    content: '20%';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    background: red;
+    z-index: 0;
+}
+@keyframes slide {
+    0% {
+        transform: translateX(0%);
+        z-index: 1;
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+/* .slider-container {
+    overflow: hidden;
+    /* z-index: 0;   */
+/* } */
+
+
+/* .slide { */
+    /* flex: 0 0 auto; */
+    /* width: 100%; Adjust slide width */
+    /* z-index: 0; */
+/* } */ 

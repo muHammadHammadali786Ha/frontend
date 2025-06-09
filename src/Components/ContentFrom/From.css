@@ -1,0 +1,30 @@
+.from{
+    width: 80%;
+    margin: 1rem auto;
+}
+.from h2{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 900;
+
+}
+
+.from div{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 1rem 0.5rem;
+}
+
+.from div input {
+    margin: 0  1rem 0 0;
+    border: 1px solid #a7a7a7;
+}
+
+.from div textarea{
+    
+}
+
+.smbtn{
+    font-size: 1.3rem;
+    margin: 2rem 40%;
+}

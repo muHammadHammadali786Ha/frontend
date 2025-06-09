@@ -1,0 +1,13 @@
+.footer{
+    width: 100vw;
+    display: flex;
+    
+    /* align-items: center;  */
+    justify-content: space-around;
+    padding: 3rem 3rem;
+    background: #F3F6FA;
+    /* position: fixed; */
+    /* bottom: 0; */
+    /* position: absolute; */
+    /* bottom: 0; */
+}

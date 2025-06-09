@@ -1,0 +1,21 @@
+.recentFlex{
+    display: flex;
+    gap: 0.6rem;
+    /* flex-direction: column; */
+}
+.recentFlex .imgSide{
+    margin: 0.2rem;
+}
+
+.description{
+    /* text-wrap: wrap; */
+    width: 13rem;
+}
+.recentFlex h3{
+    font-size: 1.1rem;
+}
+
+.recentFlex p{
+    font-size: 0.7rem;
+    color: #a6a6a6;
+}

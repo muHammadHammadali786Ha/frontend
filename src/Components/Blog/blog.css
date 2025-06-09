@@ -1,0 +1,34 @@
+.blogComponent{
+    width: 80%;
+    margin: 5rem auto;
+
+}
+.listblog{
+    display: flex;
+    gap: 2rem;
+    /* flex-direction: column; */
+}
+
+.blogComponent h2{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+
+
+.listblog img{
+    width: 360px;
+    height: 270px;
+}
+
+.blog{
+    display: flex;
+    flex-direction: column;
+    gap: 1.7rem;
+}
+
+.blog h3{
+    font-size: 1.2rem;
+    font-weight: 800;
+}

@@ -1,0 +1,23 @@
+/* .divSearch{
+    display: flex;
+} */
+
+.btnne {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.btnne .leftbtn,
+.rightbtn {
+    display: flex;
+    gap: 1rem;
+}
+
+.btnne button {
+    background: #a6a6a6;
+    padding: 0.5rem;
+    font-size: 0.9rem;
+
+}
